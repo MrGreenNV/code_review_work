@@ -3,14 +3,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
-aa
+    
     Calculator calculator = new Calculator();
-    @Test
-    void add() {
-        assertEquals(1, calculator.add(1 , 0));
 
-
-    Calculator calculator = new Calculator();
 
     @Test
     void add() {
