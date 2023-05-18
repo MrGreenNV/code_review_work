@@ -12,6 +12,10 @@ public class Calculator {
         return a * b;
     }
     public int solver(){
+
+        return this.times(this.add(2, 2), 2);
+
         return this.times(this.div(this.add(15, 10), this.dif(25, 13)), 3);
+
     }
 }
