@@ -6,26 +6,26 @@ class CalculatorTest {
     Calculator calculator = new Calculator();
     @Test
     void add() {
-        assertEquals(calculator.add(1 , 0), 1);
+        assertEquals(1, calculator.add(1 , 0));
     }
 
     @Test
     void dif() {
-        assertEquals(calculator.dif(2 , 3), -1);
+        assertEquals(-1, calculator.dif(2 , 3));
     }
 
     @Test
     void div() {
-        assertEquals(calculator.div(4 , 2), 2);
+        assertEquals(2, calculator.div(4 , 2));
     }
 
     @Test
     void times() {
-        assertEquals(calculator.times(22 , 8), 176);
+        assertEquals(176, calculator.times(22 , 8));
     }
 
     @Test
     void solver() {
-        assertEquals(calculator.solver(), 8);
+        assertEquals(8, calculator.solver());
     }
 }
